@@ -7,5 +7,9 @@ from . import views
 urlpatterns = [
     url(r"^index/$",views.index),
     url(r"^home/$",views.Ovcom),
-    url('^lin/$',views.lin),
+
+    url('^lin2/$',views.lin),
+
+    url('^test/$',nothing),
+
 ]
